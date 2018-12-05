@@ -70,7 +70,7 @@ final class travel {
     }
 
     private static LatLng parseToCoords(String str) throws InterruptedException, ApiException, IOException {
-        String key = "AIzaSyAHZb-y1I6dD4q5jMyyHx8mNqcAGlHBzWE";
+        String key = "";    //Insert API Key here
         GeoApiContext context = new GeoApiContext.Builder()
                 .apiKey(key)
                 .build();
